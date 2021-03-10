@@ -8,11 +8,11 @@ export default function HTML(props) {
         {props.headComponents}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWWGZ3NJN1"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'G-FWWGZ3NJN1');
+            gtag('config', 'G-FWWGZ3NJN1');
         </script>
       </head>
       <body {...props.bodyAttributes}>
