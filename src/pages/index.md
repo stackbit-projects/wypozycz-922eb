@@ -13,7 +13,7 @@ sections:
       - label: Dowiedz się więcej
         url: /features
         style: primary
-  - section_id: features
+  - section_id: learn-more
     type: section_features
     background: gray
     title: Features
