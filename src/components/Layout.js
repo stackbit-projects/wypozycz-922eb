@@ -14,13 +14,13 @@ export default class Body extends React.Component {
             <React.Fragment>
                 <Helmet>
                     <!-- Global site tag (gtag.js) - Google Analytics -->
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWWGZ3NJN1"></script>
-                <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWWGZ3NJN1"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
 
-                gtag('config', 'G-FWWGZ3NJN1');
+                    gtag('config', 'G-FWWGZ3NJN1');
 </script>
                     <title>{_.get(this.props, 'pageContext.frontmatter.seo.title', null) ? (_.get(this.props, 'pageContext.frontmatter.seo.title', null)) : _.get(this.props, 'pageContext.frontmatter.title', null) + ' | ' + _.get(this.props, 'pageContext.site.siteMetadata.title', null)}</title>
                     <meta charSet="utf-8"/>
