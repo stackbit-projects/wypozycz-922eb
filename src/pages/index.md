@@ -118,7 +118,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: Wypożycz online!
     - name: 'twitter:description'
       value: The preview of the Azimuth theme
 template: landing
