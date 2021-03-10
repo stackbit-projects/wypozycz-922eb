@@ -5,7 +5,6 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        {props.headComponents}   
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWWGZ3NJN1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -13,6 +12,7 @@ export default function HTML(props) {
             gtag('js', new Date());
             gtag('config', 'G-FWWGZ3NJN1');
         </script>     
+        {props.headComponents}   
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
