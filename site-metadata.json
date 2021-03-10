@@ -102,7 +102,7 @@
                 "type": "footer_form",
                 "title": "Subscribe",
                 "content": "Stay up to date with our latest developments.",
-                "form_id": "contactForm",
+                "form_id": "signupForm",
                 "hide_labels": true,
                 "form_fields": [
                     {
