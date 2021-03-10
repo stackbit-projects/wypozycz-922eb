@@ -103,7 +103,7 @@
                 "title": "Subscribe",
                 "content": "Stay up to date with our latest developments.",
                 "form_id": "signupForm",
-                "hide_labels": true,
+                "hide_labels": false,
                 "form_fields": [
                     {
                         "input_type": "email",
