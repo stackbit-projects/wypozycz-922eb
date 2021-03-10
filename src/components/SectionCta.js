@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {htmlToReact} from '../utils';
-import Form from './CtaButtons';
+import Form from './FooterForm';
 
 export default class SectionCta extends React.Component {
     render() {
