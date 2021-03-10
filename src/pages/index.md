@@ -98,10 +98,6 @@ sections:
       - label: Get Started
         url: /signup
         style: primary
-  - section_id: recent-posts
-    type: section_posts
-    background: gray
-    title: Latest Posts
 seo:
   title: Wypozycz online!
   description: Proste i tanie rozwiązanie chmurowe dla Twojej wypozyczalni.
