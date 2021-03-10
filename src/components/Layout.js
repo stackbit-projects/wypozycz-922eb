@@ -21,7 +21,7 @@ export default class Body extends React.Component {
                     gtag('js', new Date());
 
                     gtag('config', 'G-FWWGZ3NJN1');
-</script>
+                    </script>
                     <title>{_.get(this.props, 'pageContext.frontmatter.seo.title', null) ? (_.get(this.props, 'pageContext.frontmatter.seo.title', null)) : _.get(this.props, 'pageContext.frontmatter.title', null) + ' | ' + _.get(this.props, 'pageContext.site.siteMetadata.title', null)}</title>
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
