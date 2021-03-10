@@ -22,13 +22,7 @@ sections:
           Główną cechą systemu jest uniwersalne podejście do urządzenia, na
           którym zostanie wyświetlona aplikacja. Zawsze w pełni funkcjonalna,
           niezależnie czy używasz telefonu, tabletu czy komputera.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
+        actions: []
         title: Używaj na każdym urządzeniu
       - title: Awesome Feature of Your Services
         image: images/feature2.png
