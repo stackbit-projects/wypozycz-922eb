@@ -3,7 +3,7 @@
     "palette": "blue",
     "header": {
         "logo_img": "images/logo.svg",
-        "logo_img_alt": "Wypo",
+        "logo_img_alt": "Wypożycz online!",
         "has_nav": true,
         "nav_links": [
             {
