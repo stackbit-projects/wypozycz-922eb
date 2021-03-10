@@ -115,10 +115,6 @@ seo:
     - name: 'og:description'
       value: The preview of the Azimuth theme
       keyName: property
-    - name: 'og:image'
-      value: images/hero.png
-      keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
