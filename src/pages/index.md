@@ -121,8 +121,5 @@ seo:
       value: Stackbit Azimuth Theme
     - name: 'twitter:description'
       value: The preview of the Azimuth theme
-    - name: 'twitter:image'
-      value: images/hero.png
-      relativeUrl: true
 template: landing
 ---
