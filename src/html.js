@@ -6,7 +6,15 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
         {props.headComponents}
-        <meta name="google-site-verification" content="-a_z8KyQRoNv_Jdq9Yr3LSv-h6hDR0nfWVyrHCDiGzM" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FWWGZ3NJN1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FWWGZ3NJN1');
+</script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
