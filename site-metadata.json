@@ -2,7 +2,7 @@
     "base_font": "nunito-sans",
     "palette": "blue",
     "header": {
-        "logo_img": "images/wypozycz-logo.png",
+        "logo_img": "images/scientific-turtle.png",
         "logo_img_alt": "Wypożycz online!",
         "has_nav": true,
         "nav_links": [
