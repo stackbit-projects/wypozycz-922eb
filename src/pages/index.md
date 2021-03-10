@@ -11,7 +11,7 @@ sections:
       wypożyczasz! W tej aplikacji bez problemu zapanujesz nad terminami.
     actions:
       - label: Dowiedz się więcej
-        url: /features
+        url: /learn
         style: primary
   - section_id: learn-more
     type: section_features
