@@ -6,11 +6,11 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
         {props.headComponents}
-        
+
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWWGZ3NJN1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){dataLayer.push(arguments)}
             gtag('js', new Date());
 
             gtag('config', 'G-FWWGZ3NJN1');
