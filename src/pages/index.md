@@ -61,7 +61,7 @@ sections:
             icon_position: right
   - section_id: signup
     type: section_cta
-    title: Zainteresowany(a)?
+    title: Brzmi dobrze?
     subtitle: This is an optional description for the call to action block.
     actions:
       - label: Get Started
