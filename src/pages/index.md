@@ -62,7 +62,7 @@ sections:
   - section_id: signup
     type: section_cta
     title: Brzmi dobrze?
-    subtitle: This is an optional description for the call to action block.
+    subtitle: Zapisz się, aby otrzymać darmowe zaproszenie.
     actions:
       - label: Get Started
         url: /signup
