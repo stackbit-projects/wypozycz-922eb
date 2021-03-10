@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {htmlToReact} from '../utils';
-import FooterForm from './FooterForm';
+import SignupForm from './SignupForm';
 
 export default class SectionCta extends React.Component {
     render() {
@@ -22,7 +22,7 @@ export default class SectionCta extends React.Component {
                     )}
                   </div>                 
                   <div className="cell block-buttons">                    
-                    <FooterForm {...this.props} />
+                    <SignupForm {...this.props} />
                   </div>
                 </div>
               </div>
