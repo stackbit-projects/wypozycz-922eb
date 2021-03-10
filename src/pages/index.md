@@ -120,6 +120,6 @@ seo:
     - name: 'twitter:title'
       value: Wypożycz online!
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Tanie i proste rozwiązanie chmurowe dla Twojej wypożyczalni.
 template: landing
 ---
