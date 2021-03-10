@@ -18,7 +18,6 @@ sections:
     background: gray
     features:
       - image: images/feature1.png
-        image_alt: App preview on a phone and tablet
         content: >
           Główną cechą systemu jest uniwersalne podejście do urządzenia, na
           którym zostanie wyświetlona aplikacja. Zawsze w pełni funkcjonalna,
