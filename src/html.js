@@ -12,7 +12,6 @@ export default function HTML(props) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments)}
             gtag('js', new Date());
-
             gtag('config', 'G-FWWGZ3NJN1');
         </script>
       </head>
