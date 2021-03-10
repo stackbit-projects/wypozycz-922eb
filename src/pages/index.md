@@ -5,7 +5,7 @@ sections:
     type: section_hero
     image: images/11.jpg
     image_alt: App preview
-    title: Wypozycz online!
+    title: Wypożycz online!
     content: >
       Nowoczesna i prosta aplikacja dla wypożyczalni. Nie istotne co
       wypożyczasz! W tej aplikacji bez problemu zapanujesz nad terminami.
@@ -62,7 +62,7 @@ sections:
   - section_id: signup
     type: section_cta
     title: Brzmi dobrze?
-    subtitle: Zapisz się, aby otrzymać darmowe zaproszenie.
+    subtitle: 'Zapisz się, aby otrzymać darmowe zaproszenie.'
     actions:
       - label: Get Started
         url: /signup
