@@ -113,7 +113,7 @@ seo:
       value: Wypożycz online!
       keyName: property
     - name: 'og:description'
-      value: Tanie i proste rozwiązanie chmurowe dla Twojej wypozyczalni.
+      value: Tanie i proste rozwiązanie chmurowe dla Twojej wypożyczalni.
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
