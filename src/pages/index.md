@@ -67,6 +67,15 @@ sections:
       - label: Get Started
         url: /signup
         style: primary
+      - label: lorem-ipsum
+        url: '#'
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: left
+        new_window: false
+        no_follow: false
+        type: action
 seo:
   title: Wypozycz online!
   description: Proste i tanie rozwiązanie chmurowe dla Twojej wypozyczalni.
