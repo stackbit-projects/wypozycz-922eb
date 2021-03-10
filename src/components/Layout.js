@@ -12,8 +12,7 @@ export default class Body extends React.Component {
         let font = _.get(this.props, 'pageContext.site.siteMetadata.base_font', null) || 'nunito-sans';
         return (
             <React.Fragment>
-                <Helmet>
-                    <!-- Global site tag (gtag.js) - Google Analytics -->
+                <Helmet>                    
                     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWWGZ3NJN1"></script>
                     <script>
                         window.dataLayer = window.dataLayer || [];
