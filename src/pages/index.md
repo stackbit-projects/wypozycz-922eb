@@ -113,7 +113,7 @@ seo:
       value: Wypożycz online!
       keyName: property
     - name: 'og:description'
-      value: The preview of the Azimuth theme
+      value: Tanie i proste rozwiązanie chmurowe dla Twojej wypozyczalni.
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
