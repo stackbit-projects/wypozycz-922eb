@@ -104,7 +104,7 @@ sections:
     title: Latest Posts
 seo:
   title: Wypozycz online!
-  description: The preview of the Azimuth theme
+  description: Proste i tanie rozwiązanie chmurowe dla Twojej wypozyczalni.
   extra:
     - name: 'og:type'
       value: website
