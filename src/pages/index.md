@@ -6,9 +6,9 @@ sections:
     image: images/hero.png
     image_alt: App preview
     title: Wypozycz online!
-    content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
+    content: >
+      Nowoczesna i prosta aplikacja dla wypożyczalni. Nie istotne co
+      wypożyczasz! W tej aplikacji bez problemu zapanujesz nad terminami.
     actions:
       - label: Learn More
         url: /features
