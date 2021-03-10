@@ -22,7 +22,7 @@ export default class SectionCta extends React.Component {
                     )}
                   </div>                 
                   <div className="cell block-buttons">                    
-                    <Footer {...this.props} />
+                    <FooterForm {...this.props} />
                   </div>
                 </div>
               </div>
