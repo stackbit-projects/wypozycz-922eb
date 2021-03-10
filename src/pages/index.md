@@ -24,7 +24,7 @@ sections:
           niezależnie czy używasz telefonu, tabletu czy komputera.
         actions: []
         title: Używaj na każdym urządzeniu
-      - title: Awesome Feature of Your Services
+      - title: Sieć klientów
         image: images/feature2.png
         image_alt: App users welcoming a new member
         content: >-
