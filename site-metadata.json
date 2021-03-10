@@ -19,7 +19,7 @@
             },
             {
                 "label": "Zdobądź darmowe zaproszenie",
-                "url": "/signup",
+                "url": "#signup",
                 "style": "primary"
             }
         ]
