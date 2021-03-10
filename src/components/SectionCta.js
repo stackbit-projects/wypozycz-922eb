@@ -23,7 +23,7 @@ export default class SectionCta extends React.Component {
                   </div>
                   {_.get(section, 'actions', null) && (
                   <div className="cell block-buttons">                    
-                    <Footer {...this.props} actions={_.get(section, 'actions', null)} />
+                    <Footer {...this.props} />
                   </div>
                   )}
                 </div>
