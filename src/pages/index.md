@@ -10,7 +10,7 @@ sections:
       Nowoczesna i prosta aplikacja dla wypożyczalni. Nie istotne co
       wypożyczasz! W tej aplikacji bez problemu zapanujesz nad terminami.
     actions:
-      - label: Dowiedz się
+      - label: Dowiedz się więcej
         url: /features
         style: primary
   - section_id: features
