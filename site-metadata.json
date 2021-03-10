@@ -7,7 +7,7 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
+                "label": "Start",
                 "url": "/",
                 "style": "link"
             },
