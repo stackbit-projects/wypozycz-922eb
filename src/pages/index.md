@@ -19,10 +19,10 @@ sections:
     features:
       - image: images/feature1.png
         image_alt: App preview on a phone and tablet
-        content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+        content: >
+          Główną cechą systemu jest uniwersalne podejście do urządzenia, na
+          którym zostanie wyświetlona aplikacja. Zawsze w pełni funkcjonalna,
+          niezależnie czy używasz telefonu, tabletu czy komputera.
         actions:
           - label: Learn More
             url: /features
