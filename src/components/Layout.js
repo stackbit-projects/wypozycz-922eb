@@ -20,9 +20,9 @@ export default class Body extends React.Component {
                     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGP4576NPQ"></script>
                     <script>
                         {`window.dataLayer = window.dataLayer || [];
-                function gtag(){window.dataLayer.push(arguments);}
-                gtag('js', new Date());              
-                gtag('config', 'G-XGP4576NPQ');`}
+                        function gtag(){window.dataLayer.push(arguments);}
+                        gtag('js', new Date());              
+                        gtag('config', 'G-XGP4576NPQ');`}
                     </script>
                     <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.seo.description', null) || ''} />
                     {_.get(this.props, 'pageContext.frontmatter.seo.robots', null) && (
