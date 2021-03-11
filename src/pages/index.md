@@ -7,8 +7,8 @@ sections:
     image_alt: App preview
     title: Wypożycz online!
     content: >
-      Nowoczesna i prosta aplikacja dla wypożyczalni. Nie istotne co
-      wypożyczasz! W tej aplikacji bez problemu zapanujesz nad terminami.
+      Nowoczesna i prosta aplikacja dla wypożyczalni. Nieistotne co wypożyczasz!
+      W tej aplikacji bez problemu zapanujesz nad terminami.
     actions:
       - label: Dowiedz się więcej
         url: '#learn-more'
