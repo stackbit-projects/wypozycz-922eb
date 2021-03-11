@@ -8,7 +8,7 @@ export default class SignupForm extends React.Component {
         let self = this;
         let field = {
             name: "email",
-            default_value: "Email",
+            placeholder: "Email",
             input_type: "text",
             is_required: true,
         };
