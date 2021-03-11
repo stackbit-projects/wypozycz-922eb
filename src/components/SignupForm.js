@@ -31,7 +31,8 @@ export default class SignupForm extends React.Component {
                 <form name="signup" id="signup" method="POST" action="/" onSubmit={this.registerEmail.bind(this)}>
                     <div className="form-row">
                         <input 
-                            name="email" type="email" placeholder="Adres email" value={this.state.email} onChange={this.handleInputChange.bind(this)} required />
+                            name="email" 
+                            type="email" placeholder="Adres email" value={this.state.email} onChange={this.handleInputChange.bind(this)} required />
                     </div>
                     <div className="form-row">
                         <button type="submit" className="button">Zapisz się</button>
