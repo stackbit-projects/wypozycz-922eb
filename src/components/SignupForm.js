@@ -6,7 +6,7 @@ import FormField from './FormField';
 export default class SignupForm extends React.Component {
     render() {
         let state = {
-            email:""
+            email: ""
         };
 
         let registerEmail = (e) => {
