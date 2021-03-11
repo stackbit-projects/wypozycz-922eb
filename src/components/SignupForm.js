@@ -8,7 +8,7 @@ export default class FooterForm extends React.Component {
         let field = {
             name: "email",
             label:"Email",
-            is_required
+            is_required:true
         };
         return (
             <section className="cell widget widget-form">              
