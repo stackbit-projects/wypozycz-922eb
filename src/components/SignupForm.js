@@ -5,12 +5,13 @@ import FormField from './FormField';
 
 export default class SignupForm extends React.Component {
     render() {
+        let self=this;
         let field = {
             name: "email",
             default_value: "Email",
             input_type: "text",
             is_required: true,
-        };
+        };        
 
         let registerEmail = (e) => { };
 
