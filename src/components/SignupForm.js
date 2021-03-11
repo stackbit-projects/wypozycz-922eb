@@ -15,7 +15,7 @@ export default class SignupForm extends React.Component {
 
         let registerEmail = (e) => {
             e.preventDefault();
-            console.log(e);
+            console.log(field);
         };
 
         return (
