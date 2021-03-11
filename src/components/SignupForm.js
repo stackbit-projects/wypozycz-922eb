@@ -14,7 +14,7 @@ export default class SignupForm extends React.Component {
         };
 
         let registerEmail = (e) => {
-
+            alert('works');
         };
 
         return (
