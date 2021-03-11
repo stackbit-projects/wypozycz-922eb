@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import FormField from './FormField';
 
-export default class FooterForm extends React.Component {
+export default class SignupForm extends React.Component {
     render() {
         let field = {
             name: "email",
