@@ -1,7 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {markdownify} from '../utils';
 import FormField from './FormField';
 
 export default class FooterForm extends React.Component {
