@@ -23,10 +23,8 @@ export default class SignupForm extends React.Component {
         this.setState({ [name]: value });
         console.log(state);
     };
-    
+
     render() {
-
-
         return (
             <section className="cell widget widget-form">
                 <form name="signup" id="signup" method="POST" action="/" onSubmit={this.registerEmail.bind(this)}>
