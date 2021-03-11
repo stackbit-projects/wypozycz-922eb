@@ -7,7 +7,7 @@ export default class FooterForm extends React.Component {
     render() {
         let field = {
             name: "email",
-            placeholder: "Email",
+            default_value: "Email",
             input_type: "text",
             is_required: true,
         };
