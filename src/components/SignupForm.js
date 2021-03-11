@@ -12,7 +12,7 @@ export default class SignupForm extends React.Component {
     registerEmail(e) {
         e.preventDefault();
         console.log(this.state.email);
-        fetch
+        pos
     };
 
     handleInputChange(e) {
