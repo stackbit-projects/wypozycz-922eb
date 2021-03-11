@@ -35,10 +35,7 @@ sections:
     type: section_cta
     title: Brzmi dobrze?
     subtitle: 'Zapisz się, aby otrzymać darmowe zaproszenie.'
-    actions:
-      - label: Get Started
-        url: /signup
-        style: primary
+    actions: []
 seo:
   title: Wypozycz online!
   description: Proste i tanie rozwiązanie chmurowe dla Twojej wypozyczalni.
