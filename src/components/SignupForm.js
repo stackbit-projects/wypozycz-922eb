@@ -14,9 +14,10 @@ export default class SignupForm extends React.Component {
         console.log(this.state.email);
         const requestOptions = {
             method: 'POST',
-            headers: { 
+            headers: {
                 'Content-Type': 'application/json',
-             },
+                'api-key'
+            },
             body: JSON.stringify({ title: 'React POST Request Example' })
         };
         const response = await fetch('https://jsonplaceholder.typicode.com/posts', requestOptions);
