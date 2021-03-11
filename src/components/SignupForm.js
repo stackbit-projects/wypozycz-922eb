@@ -21,7 +21,7 @@ export default class SignupForm extends React.Component {
             const name = target.name;
             const value = target.value;
             this.setState({ [name]: value });
-            
+            console
         };
 
         return (
