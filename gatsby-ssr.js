@@ -9,8 +9,7 @@ const withPrefix = require("./src/utils/withPrefix").default;
 
 exports.onRenderBody = function ({ setHeadComponents, setPostBodyComponents }) {
 
-    setHeadComponents([
-        
+    setHeadComponents([        
     ]);
 
     setPostBodyComponents([
