@@ -27,7 +27,7 @@ export default class SignupForm extends React.Component {
             <section className="cell widget widget-form">
                 <form name="signup" id="signup" method="POST" action="/" onSubmit={registerEmail.bind(this)}>
                     <div className="form-row">
-                        <input name="email" type={field.name} value={field.value} placeholder={field.placeholder} onChange={handleInputChange.bind(this)} required />
+                        <input name="email" type="email" value={field.value} placeholder={field.placeholder} onChange={handleInputChange.bind(this)} required />
                     </div>
                     <div className="form-row">
                         <button type="submit" className="button">Zapisz się</button>
