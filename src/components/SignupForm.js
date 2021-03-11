@@ -15,6 +15,13 @@ export default class SignupForm extends React.Component {
             console.log(e.target.value);
         };
 
+        handleInputChange(event) {
+    event.preventDefault();
+    const target = event.target;
+    const name = target.name;
+    const value = target.value;
+this.setState({ [name]: value });
+
         return (
             <section className="cell widget widget-form">
                 <form name="signup" id="signup" method="POST" action="/" onSubmit={registerEmail.bind(this)}>
