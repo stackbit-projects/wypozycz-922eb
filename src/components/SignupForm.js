@@ -5,7 +5,7 @@ import FormField from './FormField';
 
 export default class FooterForm extends React.Component {
     render() {
-        
+        let field = {};
         return (
             <section className="cell widget widget-form">              
               <h2 className="widget-title">Zapisz się</h2>              
