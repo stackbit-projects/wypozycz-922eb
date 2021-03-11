@@ -9,7 +9,7 @@ export default class SignupForm extends React.Component {
         let field = {
             name: "email",
             placeholder: "Email",
-            value:""
+            value: ""
         };
 
         let registerEmail = (e) => {
