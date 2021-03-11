@@ -22,9 +22,10 @@ export default class SignupForm extends React.Component {
         const value = target.value;
         this.setState({ [name]: value });
         console.log(state);
-        render() {
+    };
+    
+    render() {
 
-        };
 
         return (
             <section className="cell widget widget-form">
