@@ -15,15 +15,15 @@ export default class SignupForm extends React.Component {
         console.log(e.target.value);
     };
 
+    let handleInputChange = (event) => {
+        event.preventDefault();
+        const target = event.target;
+        const name = target.name;
+        const value = target.value;
+        this.setState({ [name]: value });
+        console.log(state);
     render() {
 
-        let handleInputChange = (event) => {
-            event.preventDefault();
-            const target = event.target;
-            const name = target.name;
-            const value = target.value;
-            this.setState({ [name]: value });
-            console.log(state);
         };
 
         return (
