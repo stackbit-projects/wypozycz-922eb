@@ -16,7 +16,7 @@ export default class SignupForm extends React.Component {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'api-key'
+                'api-key':''
             },
             body: JSON.stringify({ title: 'React POST Request Example' })
         };
