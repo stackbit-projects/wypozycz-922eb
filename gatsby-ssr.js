@@ -11,13 +11,7 @@ exports.onRenderBody = function ({ setHeadComponents, setPostBodyComponents }) {
 
     setHeadComponents([
         <React.Fragment>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGP4576NPQ"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments)}
-                gtag('js', new Date());              
-                gtag('config', 'G-XGP4576NPQ');
-            </script>
+
         </React.Fragment>
     ]);
 
