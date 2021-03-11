@@ -10,7 +10,6 @@ export default class FooterForm extends React.Component {
         return (
             <section className="cell widget widget-form">              
               <h2 className="widget-title">{_.get(section, 'title', null)}</h2>
-              )}
               {markdownify(_.get(section, 'content', null))}
               <form name={_.get(section, 'form_id', null)} id={_.get(section, 'form_id', null)} {...(_.get(section, 'form_action', null) ? ({action: _.get(section, 'form_action', null)}) : null)} method="POST" data-netlify="true"
                 data-netlify-honeypot={_.get(section, 'form_id', null) + '-bot-field'}>
