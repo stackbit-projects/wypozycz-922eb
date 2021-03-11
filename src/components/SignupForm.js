@@ -11,7 +11,7 @@ export default class FooterForm extends React.Component {
             <section className="cell widget widget-form">              
               <h2 className="widget-title">Zapisz się</h2>              
               <form name="signup" id="signup" method="POST" action="/">                               
-                <div key={field_idx} className="form-row">
+                <div className="form-row">
                   <FormField {...this.props} field={field} />
                 </div>
                 <div className="form-row">
