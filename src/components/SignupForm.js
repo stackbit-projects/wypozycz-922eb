@@ -2,6 +2,8 @@ import React from 'react';
 
 export default class SignupForm extends React.Component {
     constructor(props) {
+        super(props);
+
         this.state = {
             email: ""
         };
@@ -15,7 +17,7 @@ export default class SignupForm extends React.Component {
     handleInputChange(e) {
         e.preventDefault();
 
-        if (!this.state) 
+        if (!this.state)
             return;
 
         const target = e.target;
