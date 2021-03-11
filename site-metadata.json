@@ -107,7 +107,7 @@
                 "submit_label": "Subscribe"
             }
         ],
-        "has_nav": true,
+        "has_nav": false,
         "nav_links": [],
         "content": "&copy; wypozycz.online. All rights reserved."
     },
