@@ -15,7 +15,7 @@ export default class SignupForm extends React.Component {
     handleInputChange(e) {
         e.preventDefault();
 
-        if(!this.state)
+        if (!this.state) return;
 
         const target = e.target;
         const name = target.name;
