@@ -14,7 +14,6 @@ export default class FooterForm extends React.Component {
                 <div key={field_idx} className="form-row">
                   <FormField {...this.props} field={field} />
                 </div>
-                ))}
                 <div className="form-row">
                   <button type="submit" className="button">{_.get(section, 'submit_label', null)}</button>
                 </div>
