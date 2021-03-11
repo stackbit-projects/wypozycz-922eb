@@ -7,21 +7,21 @@ export default class FooterForm extends React.Component {
     render() {
         let field = {
             name: "email",
-            placeholder:"Email",
-            input_type:"text",
-            is_required:true,
+            placeholder: "Email",
+            input_type: "text",
+            is_required: true,
         };
         return (
-            <section className="cell widget widget-form">              
-              <h2 className="widget-title">Zapisz się</h2>              
-              <form name="signup" id="signup" method="POST" action="/">                               
-                <div className="form-row">
-                  <FormField {...this.props} field={field} />
-                </div>
-                <div className="form-row">
-                  <button type="submit" className="button">Zapisz się</button>
-                </div>
-              </form>
+            <section className="cell widget widget-form">
+                <h2 className="widget-title">Zapisz się</h2>
+                <form name="signup" id="signup" method="POST" action="/">
+                    <div className="form-row">
+                        <FormField {...this.props} field={field} />
+                    </div>
+                    <div className="form-row">
+                        <button type="submit" className="button">Zapisz się</button>
+                    </div>
+                </form>
             </section>
         );
     }
