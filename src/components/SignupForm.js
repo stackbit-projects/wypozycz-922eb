@@ -4,22 +4,11 @@ import _ from 'lodash';
 import FormField from './FormField';
 
 export default class SignupForm extends React.Component {
-    constructor(props) {
-        this.state = {
-            name: "",
-            email: "",
-            feedback: "",
-        };
+constructor(props){
+    
+}
 
-        handleInputChange(event) {
-            event.preventDefault();
-            const target = event.target;
-            const name = target.name;
-            const value = target.value;
-            this.setState({ [name]: value });
-        }
-    }
-
+    
     render() {
         let state = {
             email: ""
