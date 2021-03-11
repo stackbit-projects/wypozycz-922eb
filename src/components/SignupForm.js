@@ -15,7 +15,7 @@ export default class FooterForm extends React.Component {
                   <FormField {...this.props} field={field} />
                 </div>
                 <div className="form-row">
-                  <button type="submit" className="button">{_.get(section, 'submit_label', null)}</button>
+                  <button type="submit" className="button">Zapisz się</button>
                 </div>
               </form>
             </section>
