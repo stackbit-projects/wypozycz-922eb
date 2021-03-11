@@ -11,7 +11,7 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
 
     setHeadComponents([
         <React.Fragment>
-            <!-- Global site tag (gtag.js) - Google Analytics -->
+         
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XGP4576NPQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
