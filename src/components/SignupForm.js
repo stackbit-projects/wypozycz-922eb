@@ -13,7 +13,6 @@ export default class FooterForm extends React.Component {
         };
         return (
             <section className="cell widget widget-form">
-                <h2 className="widget-title">Zapisz się</h2>
                 <form name="signup" id="signup" method="POST" action="/">
                     <div className="form-row">
                         <FormField {...this.props} field={field} />
