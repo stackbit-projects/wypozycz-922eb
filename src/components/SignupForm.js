@@ -10,13 +10,7 @@ export default class FooterForm extends React.Component {
         return (
             <section className="cell widget widget-form">              
               <h2 className="widget-title">Zapisz się</h2>              
-              <form name="signup" id="signup" method="POST" action="/">
-                <div className="screen-reader-text">
-                  <label id={_.get(section, 'form_id', null) + '-honeypot-label'} htmlFor={_.get(section, 'form_id', null) + '-honeypot'}>Don't fill this out if you're
-                    human:</label>
-                  <input aria-labelledby={_.get(section, 'form_id', null) + '-honeypot-label'} id={_.get(section, 'form_id', null) + '-honeypot'}
-                    name={_.get(section, 'form_id', null) + '-bot-field'} />
-                </div>
+              <form name="signup" id="signup" method="POST" action="/">               
                 <input aria-labelledby={_.get(section, 'form_id', null) + '-honeypot-label'} type="hidden" name="form-name"
                   value={_.get(section, 'form_id', null)} />
                 {_.map(_.get(section, 'form_fields', null), (field, field_idx) => (
