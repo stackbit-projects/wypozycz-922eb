@@ -13,7 +13,7 @@ export default class SignupForm extends React.Component {
             is_required: true,
         };        
 
-        registerEmail = (e) => {
+        var registerEmail = (e) => {
 
          };
 
