@@ -12,7 +12,7 @@ export default class SignupForm extends React.Component {
 
         let registerEmail = (e) => {
             e.preventDefault();
-            console.log(e.target);
+            console.log(e.target.value);
         };
 
         return (
