@@ -5,10 +5,8 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>        
-        {props.headComponents}  
-                 
-      </head>
-      
+        {props.headComponents}                   
+      </head>      
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
