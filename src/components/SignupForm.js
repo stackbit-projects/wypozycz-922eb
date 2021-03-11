@@ -12,7 +12,7 @@ export default class FooterForm extends React.Component {
             is_required: true,
         };
 
-        function registerEmail(e) {};
+        let registerEmail(e) {};
 
         return (
             <section className="cell widget widget-form">
