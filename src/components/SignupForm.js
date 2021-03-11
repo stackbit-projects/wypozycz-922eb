@@ -15,14 +15,14 @@ export default class SignupForm extends React.Component {
         console.log(e.target.value);
     };
 
-     handleInputChange (event) => {
+    handleInputChange(event) {
         event.preventDefault();
         const target = event.target;
         const name = target.name;
         const value = target.value;
         this.setState({ [name]: value });
         console.log(state);
-    render() {
+        render() {
 
         };
 
@@ -30,12 +30,12 @@ export default class SignupForm extends React.Component {
             <section className="cell widget widget-form">
                 <form name="signup" id="signup" method="POST" action="/" onSubmit={this.registerEmail.bind(this)}>
                     <div className="form-row">
-                        <input 
-                            name="email" 
-                            type="email" 
-                            placeholder="Adres email" 
-                            value={this.state.email} 
-                            onChange={this.handleInputChange.bind(this)} 
+                        <input
+                            name="email"
+                            type="email"
+                            placeholder="Adres email"
+                            value={this.state.email}
+                            onChange={this.handleInputChange.bind(this)}
                             required />
                     </div>
                     <div className="form-row">
