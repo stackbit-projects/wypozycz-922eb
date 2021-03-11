@@ -5,7 +5,7 @@ import FormField from './FormField';
 
 export default class SignupForm extends React.Component {
     constructor(props) {
-
+this.state
     }
 
 
