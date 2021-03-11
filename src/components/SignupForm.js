@@ -1,7 +1,4 @@
 import React from 'react';
-import _ from 'lodash';
-
-import FormField from './FormField';
 
 export default class SignupForm extends React.Component {
     constructor(props) {
