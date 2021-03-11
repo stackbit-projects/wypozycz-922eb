@@ -21,7 +21,8 @@ export default class Body extends React.Component {
                     <script>{`window.dataLayer = window.dataLayer || [];
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag('js', new Date());              
-                gtag('config', 'G-XGP4576NPQ');`}</script>
+                gtag('config', 'G-XGP4576NPQ');`}
+                </script>
                     <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.seo.description', null) || ''} />
                     {_.get(this.props, 'pageContext.frontmatter.seo.robots', null) && (
                         <meta name="robots" content={_.join(_.get(this.props, 'pageContext.frontmatter.seo.robots', null), ',')} />
