@@ -5,7 +5,6 @@ import FormField from './FormField';
 
 export default class SignupForm extends React.Component {
     render() {
-        let self = this;
         let field = {
             name: "email",
             placeholder: "Email",
