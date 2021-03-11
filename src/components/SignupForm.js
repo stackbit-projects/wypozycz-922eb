@@ -11,7 +11,7 @@ export default class SignupForm extends React.Component {
             feedback: "",
         };
     }
-    
+
     handleInputChange(event) {
         event.preventDefault();
         const target = event.target;
@@ -19,8 +19,7 @@ export default class SignupForm extends React.Component {
         const value = target.value;
         this.setState({ [name]: value });
     }
-}
-
+};
 
 render() {
     let state = {
