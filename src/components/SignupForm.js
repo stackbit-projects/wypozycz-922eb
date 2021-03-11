@@ -8,8 +8,7 @@ export default class FooterForm extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section className="cell widget widget-form">
-              {_.get(section, 'title', null) && (
+            <section className="cell widget widget-form">              
               <h2 className="widget-title">{_.get(section, 'title', null)}</h2>
               )}
               {markdownify(_.get(section, 'content', null))}
