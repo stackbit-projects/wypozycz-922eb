@@ -11,6 +11,9 @@ export default class FooterForm extends React.Component {
             input_type: "text",
             is_required: true,
         };
+
+        
+
         return (
             <section className="cell widget widget-form">
                 <form name="signup" id="signup" method="POST" action="/" onSubmit={this.registerEmail.bind(this)}>
