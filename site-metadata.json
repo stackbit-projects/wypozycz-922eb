@@ -108,13 +108,7 @@
             }
         ],
         "has_nav": true,
-        "nav_links": [
-            {
-                "label": "Privacy Policy",
-                "url": "/privacy-policy",
-                "style": "link"
-            }
-        ],
+        "nav_links": [],
         "content": "&copy; wypozycz.online. All rights reserved."
     },
     "title": "Wypożycz.online",
