@@ -39,6 +39,11 @@ sections:
       - label: Get Started
         url: /signup
         style: primary
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    actions: []
+    type: section_cta
 seo:
   title: Wypozycz online!
   description: Proste i tanie rozwiązanie chmurowe dla Twojej wypozyczalni.
