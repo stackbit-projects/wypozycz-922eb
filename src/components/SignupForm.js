@@ -13,7 +13,7 @@ export default class SignupForm extends React.Component {
     };
 
     handleInputChange(e) {
-        email.preventDefault();
+        e.preventDefault();
         const target = e.target;
         const name = target.name;
         const value = target.value;
