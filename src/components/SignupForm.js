@@ -10,7 +10,7 @@ export default class FooterForm extends React.Component {
         return (
             <section className="cell widget widget-form">              
               <h2 className="widget-title">{_.get(section, 'title', null)}</h2>              
-              <form name={_.get(section, 'form_id', null)} id={_.get(section, 'form_id', null)} {...(_.get(section, 'form_action', null) ? ({action: _.get(section, 'form_action', null)}) : null)} method="POST" data-netlify="true"
+              <form name="" id={_.get(section, 'form_id', null)} {...(_.get(section, 'form_action', null) ? ({action: _.get(section, 'form_action', null)}) : null)} method="POST" data-netlify="true"
                 data-netlify-honeypot={_.get(section, 'form_id', null) + '-bot-field'}>
                 <div className="screen-reader-text">
                   <label id={_.get(section, 'form_id', null) + '-honeypot-label'} htmlFor={_.get(section, 'form_id', null) + '-honeypot'}>Don't fill this out if you're
