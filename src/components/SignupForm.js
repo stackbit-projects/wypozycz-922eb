@@ -13,7 +13,9 @@ export default class SignupForm extends React.Component {
             is_required: true,
         };        
 
-        let registerEmail = (e) => { };
+        let registerEmail = (e) => {
+            
+         };
 
         return (
             <section className="cell widget widget-form">
