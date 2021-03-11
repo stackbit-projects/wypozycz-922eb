@@ -17,7 +17,7 @@ exports.onRenderBody = function ({ setHeadComponents, setPostBodyComponents }) {
                 function gtag(){dataLayer.push(arguments)}
                 gtag('js', new Date());              
                 gtag('config', 'G-XGP4576NPQ');
-</script>
+            </script>
         </React.Fragment>
     ]);
 
