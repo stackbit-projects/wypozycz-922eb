@@ -3,6 +3,7 @@ import React from 'react';
 export default class SignupForm extends React.Component {
     constructor(props) {
         super(props);
+        
         this.state = {
             email: ""
         };
